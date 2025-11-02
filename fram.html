@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .c1{
+            height: 356vh;
+display: flex;
+/* justify-content: space-evenly; */
+animation: slider 8s 1s linear infinite;
+width: 100vw;
+background-color: rgb(201, 168, 245);
+
+justify-content: space-evenly;
+        }
+        .c1 img{
+         height: 400px;
+         width: 350px;
+         display: flex;
+         justify-self: center;
+         margin-top: 30px;
+         border-radius: 15px;
+        }
+        #move{
+            position:relative;
+            top: 200px;
+
+        }
+        @keyframes slider {
+            0%{
+                transform: translateY(0px);
+            }
+            100%{
+                transform: translateY(-1000px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="c1">
+        <div> <img src="https://pbs.twimg.com/media/Gz2MCIjX0AEmVwZ.jpg" alt="">
+            <img src="https://pbs.twimg.com/media/GtF7fExWsAA6N2e.jpg" alt="">
+            <img src="https://pbs.twimg.com/media/Gwfn8w8XgAQLRxE.jpg" alt="">
+            <img src="https://pbs.twimg.com/media/GrFCgknXsAEYGN8.jpg" alt="">
+        </div>
+        <div id="move"> <img src="https://pbs.twimg.com/media/GxsT-1CXAAApzYc.jpg" alt="">
+            <img src="https://pbs.twimg.com/media/GtPtVgzWAAEpJ4z.jpg" alt="">
+            <img src="https://pbs.twimg.com/media/GxrahCjXwAE-5ns.jpg" alt="">
+            <img src="https://pbs.twimg.com/media/GndigrAWQAA7155.jpg" alt="">
+        </div>
+        <div><img src="https://pbs.twimg.com/media/GlIJCiCWYAAuCkg.jpg" alt="">
+            <img src="https://pbs.twimg.com/media/GcL_QOBXkAAm8kz.jpg" alt="">
+            <img src="https://pbs.twimg.com/media/GjNHk6BWkAABxLg.jpg" alt="">
+            <img src="https://pbs.twimg.com/media/Glxw0nGWMAAmXkJ.jpg" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
