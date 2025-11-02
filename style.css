@@ -1,0 +1,1109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins', sans-serif;
+    background-color: rgb(244, 250, 255);
+}
+
+.container {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.mnav {
+    display: flex;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+    font-size: 20px;
+    background-color: white;
+    gap: 20px;
+    padding: 0px;
+    margin: 0px;
+     position: sticky;
+  top: 0;
+  z-index: 1000;
+
+    /* position: fixed; */
+}
+
+.mnav img {
+    height: 60px;
+    text-decoration: none;
+
+}
+
+.mnav a {
+    text-decoration: none;
+    margin-left: 40px;
+    display: inline;
+}
+
+.mnav a:hover {
+    color: blueviolet;
+}
+
+.drop img {
+    height: 30px;
+    display: inline;
+}
+
+.login {
+    display: flex;
+    height: 70px;
+    width: 100px;
+    align-items: center;
+    margin-left: 30px;
+
+}
+
+.login a {
+    color: black;
+}
+
+.login a:hover {
+    color: blueviolet;
+    border-bottom: 2px solid blueviolet;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: 3px solid blueviolet;
+    width: 190px;
+    height: 50px;
+
+}
+
+.signup a {
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.signup:hover{
+    background-color: #9c33f4;
+}
+.signup a:hover{
+    color: white;
+}
+
+
+/* page content */
+/* ************ */
+.page {
+    /* margin-top: 50px; */
+    width: 85%;
+    height: 400px;
+    background-color: blueviolet;
+    border-radius: 30px;
+    align-content: center;
+    margin-left: 100px;
+    justify-content: center;
+     margin-top: 90px;
+
+}
+
+/* drop content  */
+/* ************ */
+.drop{
+    position: absolute;
+}
+
+.boldtxp1 {
+    font-size: 55px;
+    height: 70px;
+    width: 850px;
+    margin-left: 50px;
+    font-weight: 600px;
+  
+
+}
+
+.boldtxp1 img {
+
+    height: 230px;
+    width: 300px;
+    margin-left: 800px;
+    margin-bottom: 170px;
+    margin-right: 200px;
+    margin-top: 50px;
+  
+    
+}
+
+.boldtxp2 {
+    font-size: 55px;
+    height: 100px;
+    width: 850px;
+    margin-left: 50px;
+    font-weight: 600;
+
+}
+
+.h1tex {
+    font-size: 55px;
+    height: auto;
+    width: 850px;
+    margin-left: 50px;
+    font-weight: 600;
+    margin-top: 10px;
+  
+
+}
+.h1tex p{
+    height: 30px;
+    width: 850px;
+}
+
+.midtx {
+    font-size: 18px;
+    margin: 40px 0 0px 50px;
+    width: 400px;
+    height: 60px;
+}
+
+.bellowpage {
+    display: flex;
+    gap: 30px;
+}
+
+.tsignup p {
+    height: 50px;
+    width: 190px;
+    margin-left: 50px;
+    font-size: 18px;
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: white;
+    color: blueviolet;
+
+}
+
+.tsignup a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.tsignup p:hover {
+    border: 3px solid white;
+    background-color: blueviolet;
+    color: white;
+}
+
+.tsignup a:hover {
+    color: white;
+}
+
+.more p {
+    height: 50px;
+    width: 190px;
+    margin-left: 50px;
+    font-size: 18px;
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+
+}
+
+.more a {
+    text-decoration: none;
+    color: white;
+}
+
+.more p:hover {
+    background-color: white;
+    color: blueviolet;
+}
+
+.more p a:hover {
+    color: blueviolet;
+}
+
+.combinetx{
+    height: 100px;
+    width:700px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: end;
+   margin-top: 80px;
+  
+   
+    /* gap:20px; */
+}
+
+/* pege content */
+/* ************* */
+
+.pageim img {
+    height: 150px;
+    width: 150px;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* page1 content */
+/* ************* */
+
+.page1 img {
+    height: auto;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+.page1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(235, 233, 254);
+    border-radius: 30px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 85%;
+}
+
+.boldtx {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(98, 53, 139);
+    width: 3000px;
+    text-align: center;
+    text-align: start;
+    margin-left: 30px;
+    display: block;
+    /* margin-bottom: 120px; */
+
+
+}
+
+.boldtx p {
+    height: 50px;
+    width: auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    text-align: start;
+    margin: 30px 20px;
+    display: block;
+}
+
+.tsignup1 {
+    display: block;
+}
+
+.tsignup1 p {
+
+    height: 50px;
+    width: 190px;
+    margin-left: 50px;
+    font-size: 18px;
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: white;
+    color: blueviolet;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.tsignup1 a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.tsignup1 p:hover {
+    color: white;
+    background-color: blueviolet;
+}
+
+.tsignup1 a:hover {
+    color: white;
+}
+
+.tsignup1 p:hover .arrow {
+    transform: rotate(45deg);
+    filter: invert(1);
+    /* turns purple arrow → white */
+}
+
+/* page2 content */
+/* ************* */
+
+.page2 {
+    height: 150px;
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-weight: 1000px;
+    font-size: 25px;
+    background: linear-gradient(to bottom, white 60%, rgb(253, 253, 253) 50%);
+}
+
+.page2 p {
+    display: inline;
+
+
+}
+
+.violatetx {
+    margin-top: 50px;
+    color: rgb(110, 47, 234);
+}
+
+.violatetx p {
+    color: black;
+}
+
+.collactionimg {
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.collactionimg img {
+    height: 100px;
+    width: 120px;
+
+}
+
+.page3 {
+    height: 150px;
+    width: 100%;
+    font-family: sans-serif;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.page3 h1 {
+    color: blueviolet;
+    text-align: center;
+    text-align: start;
+    margin-left: 60px;
+
+}
+
+.page3 p {
+
+    height: 30px;
+    width: 80%;
+    color: black;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.seethewall {
+    display: flex;
+    margin-top: 60px;
+    height: 50px;
+    width: 220px;
+    background-color: blueviolet;
+    margin-left: 50px;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700px;
+
+}
+
+.seethewall:hover {
+    background-color: white;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+
+.seethewall a {
+    text-decoration: none;
+    color: white;
+}
+
+.seethewall a:hover {
+    color: blueviolet;
+}
+
+.card2 {
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin-top: 50px;
+    background-color: blueviolet;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.slider {
+    width: 100%;
+    height: calc(400px * 6);
+    display: flex;
+    flex-direction: column;
+    animation: slideUp 16s infinite;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainslider {
+    margin-top: 100px;
+}
+
+#mainslider iframe {
+    height: 50vh;
+    width: 100vw;
+    border: none;
+
+}
+
+/* page4 content */
+/* ************* */
+.page4 {
+    margin-top: 80px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+
+.textcontent {
+
+
+    height: 340px;
+    width: 570px;
+    color: black;
+    margin-left: 50px;
+}
+
+.btext {
+    font-weight: bolder;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.mtext {
+    margin-left: 20px;
+    font-size: large;
+    width: 600px;
+    display: block;
+}
+
+.link {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.link a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: blueviolet;
+}
+
+.btext1 {
+    font-weight: bolder;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+
+}
+
+.btext1:hover {
+    border-left: 4px solid lightgray;
+}
+
+.btext1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.btaxt h2 {
+    margin-left: 30px;
+}
+
+.imagediv img {
+    height: 500px;
+    width: 600px;
+    margin-top: 80px;
+}
+
+.midtxpage4 {
+    height: 220px;
+    width: 600px;
+    border-left: 4px solid blueviolet;
+}
+
+.aieducatore {
+    height: 100px;
+    width: 100%;
+}
+
+.page4 h1 {
+    border-left: white;
+    color: blueviolet;
+    text-align: center;
+    text-align: start;
+    margin-left: 30px;
+    font-size: 38px;
+
+}
+
+/* page5 content */
+/* ************* */
+
+.page5 {
+    height: 180vh;
+    width: 100%;
+    background-image: linear-gradient(120deg, #5022fe, #9c33f4 78%);
+    margin-top: 250px;
+
+
+}
+
+.aieducatore1 {
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.smallcard,
+.smallcard2 {
+    margin-top: 100px;
+    height: 500px;
+    width: 480px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    transition: all 0.4s ease;
+    border-radius: 20px;
+    
+}
+
+.smallcard img,
+.smallcard2 img {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-self: center;
+    margin-top: 20px;
+    transition: all 0.6s ease;
+    transform: scale(1);
+
+}
+
+.aieducatore2 h1 {
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.smallcard p,
+.smallcard2 p {
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.smallc1,
+.smallc2 {
+    height: 50px;
+    width: 200px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-self: center;
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards1 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.smallcard:hover,
+.smallcard2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px 5px rgba(238, 69, 254, 0.6);
+
+}
+
+.smallc1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.smallc1:hover,
+.smallc2:hover {
+    background-color: white;
+    color: #9c33f4;
+}
+
+.smallc1 a:hover,
+.smallc2 a:hover {
+    color: #9c33f4;
+}
+
+/* page6 content */
+/* ************* */
+
+.page6 {
+    height: 70vh;
+    width: 100%;
+    gap: 40px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.aieducatore1 h1 {
+   color: white;
+    display: inline;
+    margin-top: 20px;
+    text-align: center;
+   padding-top: 50px;
+
+}
+
+/* page6 p1 */
+.p2 {
+
+    color: black;
+    font-size: larger;
+    margin-left: 30px;
+    
+}
+
+.p2 .h4 {
+    display:inline;
+}
+
+.page6div1 {
+    height: 100px;
+    width: 300px;
+
+}
+
+h4 {
+    display: block;
+}
+
+.smallpage6,
+.smallpage7 {
+    height: 50px;
+    width: 200px;
+    background-color: #9c33f4;
+    border: 2px solid white;
+    border-radius: 30px;
+    display: flex;
+    margin-left: 0px;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.smallpage6 a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.smallpage6:hover {
+    background-color: white;
+    border: 2px solid blueviolet;
+}
+
+.smallpage6 a:hover {
+    color: #9c33f4;
+}
+
+.page6div2 {
+    margin-top: 80px;
+}
+
+.page6div2 img {
+    height: 450px;
+    width: 450px;
+}
+
+.pagediv,
+.p1 {
+    color: black;
+}
+.aieducatore6{
+    color: blueviolet;
+    margin-left: 40px;
+}
+/* page7 content */
+/* ************* */
+
+.page7 {
+    height: 60vh;
+    width: 100%;
+    gap: 40px;
+    display: flex;
+    background-color: rgb(250, 247, 247);
+   justify-self: center;
+   align-self: center;
+}
+
+.page7 img {
+    display: flex;
+    align-self: center;
+    height: 350px;
+    width: 350px;
+    margin-left: 50px;
+}
+
+.aieducatore2 h1 {
+    font-size: 40px;
+    text-align: start;
+    margin-left: 40px;
+    display: flex;
+    justify-self: center;
+    
+
+}
+
+.smallpage7 {
+    margin-top: 120px;
+    margin-left: 20px;
+}
+
+.smallpage7 a {
+    text-decoration: none;
+    color: white;
+}
+
+.smallpage7:hover {
+    background-color: white;
+    border: 2px solid blueviolet;
+}
+
+.smallpage7 a:hover {
+    color: #9c33f4;
+}
+
+.aieducatore3 h1 {
+    color: #9c33f4;
+    font-size: 40px;
+    text-align: start;
+    margin-left: 40px;
+   
+}
+.page7tx .p1{
+  height: 70px;
+  width: 600px;
+  font-size: larger;
+  margin-left: 30px;
+}
+
+/* page8 content */
+/* ************* */
+
+.page8 {
+    height: 400px;
+    width: 85%;
+    background-image: linear-gradient(120deg, #5022fe, #9c33f4 78%);
+    border-radius: 20px;
+   
+
+
+}
+.alignpage8{
+    display: flex;
+    justify-content: center;
+}
+
+.aieducatore4 h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-self: center;
+   padding-top: 40px;
+
+}
+
+.page8
+.p4 {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-self: center;
+    font-size: large;
+    height: 120px;
+    width: 650px;
+    margin-top: 30px;
+    
+}
+
+.smallpage8 {
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin-top: 50px;
+}
+
+.smallpage8 a {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+    color: #9c33f4;
+    text-align: center;
+    margin-left: 25px;
+
+}
+
+.smallpage8 a:hover {
+    border: 2px solid white;
+    color: white;
+    background-color: #9c33f4;
+}
+
+/* footer content */
+/* ************** */
+
+.footer{
+    margin-top: 100px;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+}
+.footer img{
+    height: 30px;
+    width: 30px;
+}
+.magicimg img{
+    height: 60px;
+    width: 95px;
+    margin-bottom: 50px;
+    gap:50px;
+    margin-top: 40px;
+}
+
+
+.vsmalltx{
+    height: 50px;
+    width: 200px;
+    font-size: 10px;
+    margin-top: 30px;
+}
+.div1 h5,.div2 h5,.div3 h5,.div4 h5{
+    font-size: 18px;
+}
+.div1 a,.div2 a,.div3 a,.div4 a{
+    text-decoration: none;
+    color: black;
+}
+.div1 a:hover,.div2 a:hover,.div3 a:hover,.div4 a:hover{
+    border-bottom: 1px solid black;
+}
+
+.packimg{
+    display: flex;
+    gap:10px;
+}
+
+
+/*  Responsiveness of the webpage */
+
+/* ****************************** */
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*  */
+
+@media (max-width: 768px) {
+  .mnav {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    gap: 10px;
+  }
+  .mnav img {
+    height: 40px;
+  }
+  .login, .signup {
+    width: auto;
+    margin: 5px;
+  }
+}
+/* hero section */
+@media (max-width: 768px) {
+  .page {
+    margin: 20px auto;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .boldtxp1, .boldtxp2, .h1tex {
+    width: 100%;
+    font-size: 32px;
+    margin: 10px 0;
+  }
+
+  .midtx {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .boldtxp1 img {
+    margin: 20px auto;
+    width: 200px;
+    height: auto;
+  }
+
+  .bellowpage {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+/*  */
+@media (max-width: 768px) {
+  .page1 {
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .boldtx {
+    font-size: 28px;
+    width: 100%;
+  }
+
+  .cards, .cards1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .smallcard, .smallcard2 {
+    width: 90%;
+    height: auto;
+  }
+}
+/* footer */
+@media (max-width: 768px) {
+  .imagediv img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer .magicimg img {
+    margin-bottom: 20px;
+  }
+}
+
+/* globle */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    background-color: white;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .page4, .page5, .page6, .page7, .page8 {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    width: 95%;
+    margin: 10px auto;
+  }
+
+  .textcontent, .imagediv {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .mtext {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+
